@@ -2,8 +2,8 @@ import * as cluster from 'cluster';
 import * as os from 'os';
 import { Injectable } from '@nestjs/common';
 
-// const numCPUs = os.cpus().length;
-const numCPUs = 3;
+const numCPUs = os.cpus().length;
+// const numCPUs = 3;
 
 @Injectable()
 export class AppClusterService {
