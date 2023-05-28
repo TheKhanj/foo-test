@@ -1,0 +1,14 @@
+Bombarding http://localhost:3000/albums for 10s using 1000 connection(s)
+Statistics        Avg      Stdev        Max
+  Reqs/sec     20577.40    2664.12   30364.28
+  Latency       48.87ms   319.47ms     10.07s
+  Latency Distribution
+     50%    35.14ms
+     75%    42.25ms
+     90%    50.89ms
+     95%    56.95ms
+     99%    75.03ms
+  HTTP codes:
+    1xx - 0, 2xx - 204967, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     4.62MB/s
